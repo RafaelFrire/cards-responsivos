@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    display: flex;
+    margin: 0px auto;
+    width: 60px;
+    padding-top: 30px;
+}
+
+body{
+    background-color: #E4E6E7;
+}
+
+
+
+.container-geral{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 13%;
+    gap: 45px;
+
+}
+
+h2, p{
+    text-align: center;
+    margin-top: 10px;
+
+}
+h2{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p{
+    font-size:14px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
+}
+
+
+.container{
+    width: 270px;
+    height: 260px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    
+    box-shadow: 15px 10px 10px;
+    
+}
+
+.contact{
+    border-color: salmon;
+}
+
+.contact:hover{
+    border-color: red;
+
+}
+
+.store{
+    border-color: lightblue;
+    
+}
+
+.store:hover{
+    border-color: #28ACEE;
+
+}
+
+.about{
+    border-color: lightskyblue;
+    
+}
+
+.about:hover{
+    border-color: #008FD7;
+    
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px auto;
+    width: 110px;
+    height: 30px;
+    border-radius: 12px;
+    color: white;
+
+}
+
+#Button-1{
+    background: #FC3E3E;
+    border-color: tomato;
+
+}
+
+
+
+#Button-2{
+    background-color: #4DDCCB;
+    border-color: #1EF1D8;
+
+}
+
+#Button-3{
+    background-color: #0E7EED;
+    border-color: #399CFE;
+
+}
+
+
+
+@media screen and (max-width: 720px){
+
+
+.container-geral{
+        display: flex;
+        flex-direction: column;
+        
+        
+
+    }
+
+
+}
